@@ -31,7 +31,7 @@ The simplest and recommended way is to install from prebuilt binaries using the 
 
 The basic steps for this mode are:
 
-1. Clone the Ansible installer repository from https://github.com/h5radar/ansible
+1. Clone the Ansible installer repository from the [`ansible`](https://github.com/h5radar/ansible) repository
 2. Copy the `inventory/development` directory to `inventory/production`
 3. Edit the `hosts` file inside the inventory to specify the IP address of your target virtual machine
 4. Configure installation parameters such as:
@@ -42,10 +42,10 @@ The basic steps for this mode are:
    ```bash
    ansible-playbook -v --diff --inventory inventory/production main.yml
    ```
-   
+
 This installation process sets up all required components, including the web UI and backend services.
 
-All installation methods, including installation from prebuilt binaries and building from source, are documented in detail at [https://docs.h5radar.com/](https://docs.h5radar.com/).
+All installation methods, including installation from prebuilt binaries and building from source, are documented in detail in the [official documentation](https://docs.h5radar.com/).
 
 ## Roadmap
 
@@ -55,8 +55,7 @@ Planned features under active discussion:
 - CI/CD integration for radar policy checks
 - Extended API and multi-project dashboards
 
-Roadmap discussions are held at the organization level:  
-[https://github.com/orgs/h5radar/discussions](https://github.com/orgs/h5radar/discussions)
+Discussions about the roadmap take place centrally at the organization’s [discussions](https://github.com/orgs/h5radar/discussions) forum on GitHub.
 
 ## Who is it for
 
