@@ -63,6 +63,13 @@ Discussions about the roadmap take place centrally at the organization’s [disc
 - Architects aiming to introduce transparent tech governance
 - Platform and DevOps teams interested in license and stack compliance
 
+## Resources
+
+- [Website](https://www.h5radar.com)
+- [Documentation](https://docs.h5radar.com)
+- [Live Demo](https://app.h5radar.com)
+- [Blog](https://blog.h5radar.com)
+
 ## Contributing
 
 We welcome contributions from the community:
