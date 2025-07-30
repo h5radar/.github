@@ -26,11 +26,21 @@ It provides a clear view of technologies used across projects and teams, allowin
 
 ## Installation
 
-H5Radar supports multiple installation modes: from prebuilt binaries and from source code.
+H5Radar supports multiple installation modes: from prebuilt binaries and from source code. All installation methods are documented in detail in the [official documentation](https://docs.h5radar.com/).
 
-The simplest and recommended way is to install from prebuilt binaries using the Ansible installer provided in the [`ansible`](https://github.com/h5radar/ansible) repository.
+### Quick Start with Docker Compose
 
-The basic steps for this mode are:
+If you want to quickly try out H5Radar without configuring a full environment, you can use our Docker Compose setup. The basic steps are:
+
+1. Clone the docker compose repository from the [`docker`](https://github.com/h5radar/docker) repository
+2. Run the docker compose with the command:
+   ```bash
+   docker-compose up -d
+   ```
+
+### Installation with Ansible
+
+The simplest and recommended way is to install from prebuilt binaries using the Ansible installer provided in the [`ansible`](https://github.com/h5radar/ansible) repository.  The basic steps are:
 
 1. Clone the Ansible installer repository from the [`ansible`](https://github.com/h5radar/ansible) repository
 2. Copy the `inventory/development` directory to `inventory/production`
@@ -46,7 +56,6 @@ The basic steps for this mode are:
 
 This installation process sets up all required components, including the web UI and backend services.
 
-All installation methods, including installation from prebuilt binaries and building from source, are documented in detail in the [official documentation](https://docs.h5radar.com/).
 
 ## Roadmap
 
