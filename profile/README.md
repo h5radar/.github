@@ -21,7 +21,7 @@ It provides a clear view of technologies used across projects and teams, allowin
 | [`docker`](https://github.com/h5radar/docker)   | One-command H5Radar startup with Docker Compose           |
 | [`ansible`](https://github.com/h5radar/ansible) | Installer and provisioning scripts for H5Radar deployment |
 | [`web`](https://github.com/h5radar/web)         | Web interface for radar and license visualization         |
-| [`account`](https://github.com/h5radar/account) | Authentication and user management (in progress)          |
+| [`account`](https://github.com/h5radar/account) | Authentication and user management                        |
 | [`radar`](https://github.com/h5radar/radar)     | Base catalog of technologies with metadata                |
 
 ## Installation
